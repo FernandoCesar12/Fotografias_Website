@@ -1,0 +1,234 @@
+---
+title: " "
+---
+
+<style>
+
+ body{
+
+/* Colocando a imagem de fundo */
+
+background: white url("https://ak.picdn.net/shutterstock/videos/6188561/thumb/1.jpg") no-repeat fixed center;
+            
+font: normal 11pt Arial;
+color: white;
+text-align: justify;
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+  }
+  
+/* Texto ao lado da imagem */
+
+div.polaroid3 {
+
+float: left;
+  width: 20%;
+  margin-bottom: 2px;
+  margin-right: 10px;
+  
+}
+
+/* Imagem principal */
+
+div.imagem1 {
+   margin-top: 50px;
+   margin-bottom: 2px;
+   margin-left: 20px;
+   border-radius: 15px 50px;
+   float: left;
+}
+
+/* Texto em negrito */
+
+div.texto{
+font-family: "Copperplate";
+font-size: 20px;
+color: white;
+margin-top: 95px;
+margin-left: 470px;
+position: absolute;
+font-style: oblique;
+}
+
+/* Texto principal */
+
+div.texto2{
+font-family: "Copperplate";
+font-size: 15px;
+color: white;
+margin-top: 125px;
+margin-left: 470px;
+margin-right: 170px;
+position: absolute;
+font-style: oblique;
+text-align: left;
+}
+
+html {
+  font-family: "didot";
+}
+
+/* Texto rotacionado */
+
+h2 {
+  font-family: "Papyrus";
+  font-size: 30px;
+  margin: 0;
+  transform: rotate(-20deg);
+  text-align: center;
+  line-height: .9;
+  margin-top: 140px;
+  margin-left: -900px;
+  margin-right: 660px;
+}
+
+div.palavra {
+  display: grid;
+  height: 10vh;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: max-content max-content;
+}
+
+div.palavra2 {
+  display: grid;
+  height: 10vh;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: max-content max-content;
+}
+
+/* Distanciamento do texto rotacionado */
+
+div.local {
+  margin-top: 50px;
+}
+
+
+.images-selector input {
+  position: absolute;
+  z-index: 10;
+}
+
+.images-selector input:checked + .img-card {
+  filter: none;
+  transform: scaleY(1);
+}
+
+.img-card {
+  display: inline-block;
+  width: 400px;
+  height: 1500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: all 200ms ease-in;
+  filter: grayscale(1) opacity(.8);
+}
+
+.img-card:hover {
+  filter: grayscale(0) opacity(1);
+/*   box-shadow:  0px 8px 4px rgba(0, 0, 0, 0.3),
+               0px 10px 2px rgba(0, 0, 0, 0.1); */
+}
+
+.img-card::before,
+.img-card::after {
+  transform: scaleY(-1);
+}
+
+/*reflection*/
+.img-card:hover::after {
+  content: '';
+  background-image: inherit;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  width: inherit;
+  height: 40%;
+  position: absolute;
+  bottom: -25%;
+}
+
+/*fade reflection*/
+.img-card:hover::before {
+  content: '';
+  width: inherit;
+  height: 42%;
+  position: absolute;
+  bottom: -25%;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, .9),rgba(255, 255, 255, .5));
+  z-index: 1;
+}
+
+.img1 {
+  background-image: url(https://images.unsplash.com/photo-1497316730643-415fac54a2af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+}
+</style>
+
+
+<div class="imagem1">
+
+<div class="images-selector">
+  <input type="radio" id="duck" name="image" value="duck">
+  <label for="duck" class="img-card img1"></label>
+</div>
+
+</div>
+
+<div class="texto">
+
+**Lorem ipsum dolor sit amet, consectetur adipiscing elit.**
+
+</div>
+
+
+<div class="texto2">
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. 
+
+Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit.
+
+Integer fringilla congue eros non [fermentum](#).
+</div>
+
+<div class="palavra">
+  <h2>Professional
+  
+  Photographer</h2>
+  
+</div>
+
+<div class="local">
+<div class="palavra2">
+  <h2>Marketing 
+  
+  Student</h2>
+  
+</div>
+</div>
+
+<div class="local">
+<div class="palavra2">
+  <h2>Advertising 
+  
+  Student</h2>
+  
+</div>
+
+</div>
+
+<div class="local">
+<div class="palavra2">
+  <h2>Web 
+  
+  Developer</h2>
+  
+</div>
+</div>
+
+
+
+

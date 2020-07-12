@@ -1,0 +1,205 @@
+---
+title: " "
+---
+
+<style>
+
+ body{
+
+/* Colocando a imagem de fundo */
+
+background: white url("https://www.fondoshd.mx/wallpapers/resoluciones/20/fondo-escritorio-oficina_1680x1050_4419.jpg") no-repeat fixed center;
+            
+font: normal 11pt Arial;
+color: black;
+text-align: justify;
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+  }
+
+/* Formatação do texto */
+
+div.texto{
+font-family: "cursive";
+font-size: 80px;
+color: #708090;
+left: 300;
+line-height: 200px;
+margin-top: 50px;
+position: absolute;
+font-style: oblique;
+}
+
+div.posicao{
+position:absolute;
+right:15px;
+bottom: 5px 
+}
+
+/* Botão das redes sociais no final da tela */
+
+.share-button {
+  margin-top: 470px;
+  margin-left: 630px;
+  height: 70px;
+  background: #dfe6e9;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  transition: .3s linear;
+}
+.share-button:hover{
+  transform: scale(1.1);
+}
+.share-button span{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #2d3436;
+  color: #f1f1f1;
+  font-family: "cursive";
+  font-size: 25px;
+  text-align: center;
+  line-height: 50px;
+  z-index: 999;
+  transition: .6s linear;
+  border-radius: 40px;
+}
+
+.share-button:hover span{
+  transform: translateX(-100%);
+  transition-delay: .3s;
+}
+.share-button a {
+  flex: 1;
+  font-size: 26px;
+  margin-right: 20px;
+  color: #2d3436;
+  text-align: center;
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: .3s linear;
+}
+.share-button:hover a {
+  opacity: 1;
+  transform: translateX(0);
+}
+.share-button a:nth-of-type(1){
+  transition-delay: 1s;
+}
+.share-button a:nth-of-type(2){
+  transition-delay: .8s;
+}
+.share-button a:nth-of-type(3){
+  transition-delay: .6s;
+}
+.share-button a:nth-of-type(4){
+  transition-delay: .4s;
+}
+
+/* Botão de flip no meio da tela */
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  position: relative;
+  position: absolute;
+  left: 25%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  -webkit-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+.text {
+  padding: 0 50px;
+  visibility: hidden;
+}
+
+.flip-front, 
+.flip-back {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transform-style: flat;
+    transform-style: flat;
+    -webkit-transition: -webkit-transform .3s ease-out;
+    -o-transition: -o-transform .3s ease-out;
+    transition: transform .3s ease-out;
+}
+
+.flip-front {
+    font-size: 15px;
+    color: #313131;
+    border: 2px solid #313131;
+    background-color: transparent;
+    -webkit-transform: rotateX(0deg) translateZ(25px);
+    -ms-transform: rotateX(0deg) translateZ(25px);
+    -o-transform: rotateX(0deg) translateZ(25px);
+    transform: rotateX(0deg) translateZ(25px);
+}
+
+.flip-back {
+  font-size: 15px;
+  text-align: center;
+  color: #fff;
+  background-color: #313131;
+  border: 2px solid #313131;
+  -webkit-transform: rotateX(90deg) translateZ(25px);
+  -ms-transform: rotateX(90deg) translateZ(25px);
+  -o-transform: rotateX(90deg) translateZ(25px);
+  transform: rotateX(90deg) translateZ(25px);
+}
+
+.btn:hover .flip-front {
+    -webkit-transform: rotateX(-90deg) translateZ(25px);
+    -ms-transform: rotateX(-90deg) translateZ(25px);
+    -o-transform: rotateX(-90deg) translateZ(25px);
+    transform: rotateX(-90deg) translateZ(25px);
+}
+
+.btn:hover .flip-back {
+    -webkit-transform: rotateX(0deg) translateZ(25px);
+    -ms-transform: rotateX(0deg) translateZ(25px);
+    -o-transform: rotateX(0deg) translateZ(25px);
+    transform: rotateX(0deg) translateZ(25px);
+}
+</style>
+
+<div class="texto">
+
+Photographer.
+
+</div>
+
+<div class="posicao">
+<div class="share-button">
+  <span>Share Me</span>
+  <a href="#" ><i class="fab fa-facebook-f"></i></a>
+  <a href="#" ><i class="fab fa-twitter"></i></a>
+  <a href="#" ><i class="fab fa-instagram"></i></a>
+  <a href="#" ><i class="fab fa-linkedin-in"></i></a>
+</div>
+</div>
+
+<a href="#" class="btn">
+  <span class="text">Text</span>
+  <span class="flip-front">Design</span>
+  <span class="flip-back">Developer</span>
+</a>

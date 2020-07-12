@@ -1,0 +1,181 @@
+---
+title: " "
+---
+
+<style>
+
+/* Imagem de fundo da página */
+
+body{
+
+background-image: url("#");
+
+font: normal 11pt Arial;
+color: black;
+text-align: justify;
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+overflow-y: hidden; /* Hide vertical scrollbar */
+overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+/* Imagem dois a 2*/
+
+div.imageColumn2 {
+   float: left;
+   width: 50%;
+   padding: 1px;
+   margin-top: 0px;
+   margin-bottom: 2px;
+   margin-left: -226.7px;
+}
+
+/* Imagem única horizontal*/
+
+div.imageColumn3 {
+   float: left;
+   width: 75.15%;
+   padding: 1px;
+   margin-top: -12px;
+   right:15px;
+   margin-bottom: 2px;
+   margin-left: -227px;
+}
+
+/* Imagem única vertical*/
+
+div.imageColumn {
+   float: right;
+   width: 68%;
+   padding: 1px;
+   margin-top: -163px;
+   margin-right: -166px;
+}
+
+/* Imagem primeira superior direita*/
+
+div.imageColumn4 {
+   float: right;
+   width: 68%;
+   padding: 1px;
+   margin-top: -413px;
+   margin-right: -415px;
+}
+
+/* Imagem segunda superior direita*/
+
+div.imageColumn5 {
+   float: right;
+   width: 68%;
+   padding: 1px;
+   margin-top: -212px;
+   margin-right: -415px;
+}
+
+/* Imagem 1 inferior direita*/
+
+div.imageColumn6 {
+   float: right;
+   width: 68%;
+   padding: 1px;
+   margin-top: -10px;
+   margin-right: -534px;
+}
+
+/* Imagem 2 inferior direita*/
+
+div.imageColumn7 {
+   float: right;
+   width: 68%;
+   padding: 1px;
+   top: 10px;
+   margin-top: -10px;
+   margin-right: -286.8px;
+}
+
+/* Imagem 2 inferior esquerda*/
+
+div.imageColumn8 {
+   float: right;
+   width: 68%;
+   padding: 1px;
+   top: 10px;
+   margin-top: -12px;
+   margin-right: -258.8px;
+}
+
+/* Imagem 1 inferior esquerda*/
+
+div.imageColumn9 {
+   float: right;
+   width: 68%;
+   padding: 1px;
+   top: 10px;
+   margin-top: -212.8px;
+   margin-right: 517.8px;
+}
+
+</style>
+
+<div class="imageColumn2">
+
+  <img height="150" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRr4aYG5j_BJkIv6nuApMTuG-b9AN4wXBg3bQ&usqp=CAU" style="width:50%";/>
+
+</div>
+
+<div class="imageColumn2">
+
+  <img height="150" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQeVPRlj-7O3iZviPo6e1j7auGjtR3VnFRiqA&usqp=CAU" alt="Snow" style="width:100%";/>
+  
+</div>
+
+<div class="imageColumn3">
+
+  <img height="250" src="https://cdn.britannica.com/67/19367-050-885866B4/Valley-Taurus-Mountains-Turkey.jpg" alt="Snow" style="width:104%";/>
+  
+</div>
+
+<div class="imageColumn">
+
+  <img src="https://i.pinimg.com/236x/b1/c2/dd/b1c2dd6ea73c85164fbeb64c3410a550.jpg" alt="Snow" style="width:40%";/>
+  
+</div>
+
+<div class="imageColumn4">
+
+  <img height="199" src="https://681536.smushcdn.com/1033008/wp-content/uploads/2017/04/imagem-1.jpg?lossy=1&strip=0&webp=1" alt="Snow" style="width:69.5%";/>
+  
+</div>
+
+<div class="imageColumn5">
+
+  <img height="200" src="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823__340.jpg" alt="Snow" style="width:69.5%";/>
+  
+</div>
+
+<div class="imageColumn6">
+
+  <img height="200" src="https://static.wixstatic.com/media/8962bc_9e61e1186a58497c91a0a50861aec1a9~mv2.jpg" alt="Snow" style="width:50%";/>
+  
+</div>
+
+<div class="imageColumn7">
+
+  <img height="200" src="https://staticr1.blastingcdn.com/media/photogallery/2018/2/9/660x290/b_1200x680/as-7-paisagens-naturais-para-visitar-em-los-cabos-mexico_1828463.jpg" alt="Snow" style="width:53.5%";/>
+  
+</div>
+
+<div class="imageColumn8">
+
+  <img height="200" src="https://pt-static.z-dn.net/files/db0/e78b0f517029f001d6bb659a87705aa0.jpg" alt="Snow" style="width:58%";/>
+  
+</div>
+
+<div class="imageColumn9">
+
+  <img height="200" src="https://f.i.uol.com.br/fotografia/2017/12/20/15137779715a3a6b33c6324_1513777971_3x2_md.jpg" alt="Snow" style="width:58%";/>
+  
+</div>

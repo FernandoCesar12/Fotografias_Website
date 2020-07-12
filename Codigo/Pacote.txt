@@ -1,0 +1,520 @@
+---
+title: " "
+---
+<style>
+
+ body{
+
+/* Colocando a imagem de fundo */
+
+background: white url("https://st4.depositphotos.com/16095826/31596/v/600/depositphotos_315961524-stock-video-ink-transition-splatter-blot-spreading.jpg") no-repeat fixed center;
+            
+font: normal 11pt Arial;
+color: white;
+text-align: justify;
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+overflow-y: hidden; /* Hide vertical scrollbar */
+overflow-x: hidden; /* Hide horizontal scrollbar */
+
+  }
+  
+/* Primeira imagem a esquerda */
+
+div.polaroid {
+
+float: left;
+  width: 25%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 60px;
+  margin-left: -190px;
+}
+
+
+div.container2{
+  color: black;
+  font-family: "Papyrus";
+  font-size: 20px;
+  text-align: left;
+  padding: 1px 1px;
+  height:5px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+/* Segunda imagem a esquerda */
+
+div.polaroid2 {
+
+float: left;
+  width: 25%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 70px;
+  margin-left: -228px;
+}
+
+
+div.container3{
+color: black;
+  font-family: "Papyrus";
+  font-size: 20px;
+  text-align: left;
+  padding: 1px 1px;
+  height:5px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+/* Colocando tópicos */
+
+div.texto{
+font-family: "Copperplate";
+font-size: 18px;
+color: black;
+margin-top: 70px;
+margin-left: 40px;
+margin-right: 90px;
+position: absolute;
+font-style: oblique;
+text-align: left;
+}
+
+div.texto2{
+font-family: "Copperplate";
+font-size: 18px;
+color: black;
+margin-top: 100px;
+margin-left: 40px;
+margin-right: 90px;
+position: absolute;
+font-style: oblique;
+text-align: left;
+}
+
+div.texto3{
+font-family: "Copperplate";
+font-size: 18px;
+color: black;
+margin-top: 130px;
+margin-left: 40px;
+margin-right: 90px;
+position: absolute;
+font-style: oblique;
+text-align: left;
+}
+
+div.texto4{
+font-family: "Copperplate";
+font-size: 18px;
+color: black;
+margin-top: 160px;
+margin-left: 40px;
+margin-right: 90px;
+position: absolute;
+font-style: oblique;
+text-align: left;
+}
+
+/* Colocando Tag de preço */
+
+.tag {
+	display: inline-block;
+  
+  width: auto;
+	height: 38px;
+	
+	background-color: #979797;
+	-webkit-border-radius: 3px 4px 4px 3px;
+	-moz-border-radius: 3px 4px 4px 3px;
+	border-radius: 3px 4px 4px 3px;
+	
+	border-left: 1px solid #979797;
+
+	margin-left: 19px;
+	
+	position: relative;
+	
+	color: white;
+	font-weight: 300;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 22px;
+	line-height: 38px;
+
+	padding: 0 10px 0 10px;
+}
+
+.tag:before {
+	content: "";
+	position: absolute;
+	display: block;
+	left: -19px;
+	width: 0;
+	height: 0;
+	border-top: 19px solid transparent;
+	border-bottom: 19px solid transparent;
+	border-right: 19px solid #979797;
+}
+
+.tag:after {
+	content: "";
+	background-color: white;
+	border-radius: 50%;
+	width: 4px;
+	height: 4px;
+	display: block;
+	position: absolute;
+	left: -9px;
+	top: 17px;
+}
+
+div.local{
+margin-top: 220px;
+margin-left: 60px;
+margin-right: 90px;
+}
+
+/* Colocando tópicos */
+
+div.texto5{
+font-family: "Copperplate";
+font-size: 18px;
+color: black;
+margin-top: 80px;
+margin-left: 40px;
+margin-right: 90px;
+position: absolute;
+font-style: oblique;
+text-align: left;
+}
+
+div.texto6{
+font-family: "Copperplate";
+font-size: 18px;
+color: black;
+margin-top: 110px;
+margin-left: 40px;
+margin-right: 90px;
+position: absolute;
+font-style: oblique;
+text-align: left;
+}
+
+div.texto7{
+font-family: "Copperplate";
+font-size: 18px;
+color: black;
+margin-top: 140px;
+margin-left: 40px;
+margin-right: 90px;
+position: absolute;
+font-style: oblique;
+text-align: left;
+}
+
+div.texto8{
+font-family: "Copperplate";
+font-size: 18px;
+color: black;
+margin-top: 170px;
+margin-left: 40px;
+margin-right: 90px;
+position: absolute;
+font-style: oblique;
+text-align: left;
+}
+
+div.local2{
+margin-top: 240px;
+margin-left: 60px;
+margin-right: 90px;
+}
+
+
+/* Primeira imagem a direita */
+
+div.polaroid3{
+
+float: right;
+  width: 25%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: -488px;
+  margin-right: 300px;
+}
+
+
+div.container4{
+color: black;
+font-family: "Papyrus";
+  font-size: 20px;
+  text-align: left;
+  padding: 1px 1px;
+  height:5px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+/* Segunda imagem a direita */
+
+div.polaroid4{
+
+float: right;
+  width: 25%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: -210px;
+  margin-right: 300px;
+}
+
+
+div.container5{
+color: black;
+font-family: "Papyrus";
+  font-size: 20px;
+  text-align: left;
+  padding: 1px 1px;
+  height:5px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+
+/* Colocando tópicos */
+
+div.texto9{
+font-family: "Copperplate";
+font-size: 18px;
+color: black;
+margin-top: -475px;
+margin-left: 610px;
+margin-right: 90px;
+position: absolute;
+font-style: oblique;
+text-align: left;
+}
+
+div.texto10{
+font-family: "Copperplate";
+font-size: 18px;
+color: black;
+margin-top: -445px;
+margin-left: 610px;
+margin-right: 90px;
+position: absolute;
+font-style: oblique;
+text-align: left;
+}
+
+div.texto11{
+font-family: "Copperplate";
+font-size: 18px;
+color: black;
+margin-top: -415px;
+margin-left: 610px;
+margin-right: 90px;
+position: absolute;
+font-style: oblique;
+text-align: left;
+}
+
+div.texto12{
+font-family: "Copperplate";
+font-size: 18px;
+color: black;
+margin-top: -385px;
+margin-left: 610px;
+margin-right: 90px;
+position: absolute;
+font-style: oblique;
+text-align: left;
+}
+
+div.local3{
+margin-top: -330px;
+margin-left: 630px;
+margin-right: -200px;
+}
+
+/* Colocando tópicos */
+
+div.texto13{
+font-family: "Copperplate";
+font-size: 18px;
+color: black;
+margin-top: 85px;
+margin-left: 610px;
+margin-right: 90px;
+position: absolute;
+font-style: oblique;
+text-align: left;
+}
+
+div.texto14{
+font-family: "Copperplate";
+font-size: 18px;
+color: black;
+margin-top: 115px;
+margin-left: 610px;
+margin-right: 90px;
+position: absolute;
+font-style: oblique;
+text-align: left;
+}
+
+div.texto15{
+font-family: "Copperplate";
+font-size: 18px;
+color: black;
+margin-top: 145px;
+margin-left: 610px;
+margin-right: 90px;
+position: absolute;
+font-style: oblique;
+text-align: left;
+}
+
+div.texto16{
+font-family: "Copperplate";
+font-size: 18px;
+color: black;
+margin-top: 175px;
+margin-left: 610px;
+margin-right: 90px;
+position: absolute;
+font-style: oblique;
+text-align: left;
+}
+
+div.local4{
+margin-top: 242px;
+margin-left: 630px;
+margin-right: -200px;
+}
+</style>
+
+<div class="polaroid">
+
+  <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/img-3462-1-1576693070.jpg" alt="5 Terre" style="width:100%;height:200px">
+  
+  <div class="container2">
+  <p>Weddings Photos</p>
+  </div>
+
+</div>
+
+
+<div class="texto">
+* Lorem ipsum dolor
+</div>
+
+<div class="texto2">
+* Lorem ipsum dolor
+</div>
+
+<div class="texto3">
+* Lorem ipsum dolor
+</div>
+
+<div class="texto4">
+* Lorem ipsum dolor
+</div>
+
+<div class="local">
+<span class="tag">Price reduced 90%</span>
+</div>
+
+<div class="polaroid2">
+
+  <img src="https://img.freepik.com/fotos-gratis/menina-cobrindo-o-rosto-com-chapeu-de-formatura_23-2148522271.jpg?size=338&ext=jpg" alt="5 Terre" style="width:100%;height:200px">
+  
+  <div class="container3">
+  <p>Graduation Photos</p>
+  </div>
+
+</div>
+
+<div class="texto5">
+* Lorem ipsum dolor
+</div>
+
+<div class="texto6">
+* Lorem ipsum dolor
+</div>
+
+<div class="texto7">
+* Lorem ipsum dolor
+</div>
+
+<div class="texto8">
+* Lorem ipsum dolor
+</div>
+
+<div class="local2">
+<span class="tag">Price reduced 75%</span>
+</div>
+
+
+<div class="polaroid3">
+
+  <img src="https://i.pinimg.com/originals/14/a0/e6/14a0e69dee246f5c75cc8990f83ba4a8.jpg" alt="5 Terre" style="width:100%;height:200px">
+  
+  <div class="container4">
+  <p>Family Photos</p>
+  </div>
+
+</div>
+
+<div class="texto9">
+* Lorem ipsum dolor
+</div>
+
+<div class="texto10">
+* Lorem ipsum dolor
+</div>
+
+<div class="texto11">
+* Lorem ipsum dolor
+</div>
+
+<div class="texto12">
+* Lorem ipsum dolor
+</div>
+
+<div class="local3">
+<span class="tag">Price reduced 30%</span>
+</div>
+
+<div class="polaroid4">
+
+  <img src="https://i1.wp.com/digital-photography-school.com/wp-content/uploads/2014/12/FINAL-Bread.jpg?resize=600%2C400&ssl=1" alt="5 Terre" style="width:100%;height:200px">
+  
+  <div class="container5">
+  <p>Publicity Photos</p>
+  </div>
+
+</div>
+
+<div class="texto13">
+* Lorem ipsum dolor
+</div>
+
+<div class="texto14">
+* Lorem ipsum dolor
+</div>
+
+<div class="texto15">
+* Lorem ipsum dolor
+</div>
+
+<div class="texto16">
+* Lorem ipsum dolor
+</div>
+
+<div class="local4">
+<span class="tag">Price reduced 25%</span>
+</div>
